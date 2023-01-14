@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    body {
+        background: rgb(9, 9, 17);
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        background: rgb(53, 151, 96);
+        margin-bottom: 2rem;
+    }
+
+    .title {
+        color: aliceblue;
+        font-size: 1.6rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .map{
+        position: relative;
+        top: 120px;
+    }
+
+    .country {
+        fill:rgb(243, 178, 56);
+        stroke: rgb(65, 34, 34);
+    }
+
+
+</style>
+
+<body>
+    <div class="header">
+        <h1 class="title">Render World Map Using D3-JS Library</h1>
+    </div class="header">
+
+    <div class="map"></div>
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-array@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-geo@3"></script>z
+    <script src="render.js"></script>
+</body>
+
+</html>
